@@ -18,3 +18,5 @@ Running without the sys mount:
 ```
 
 It seems to be something to do with the license checks as per <https://forums.ventoy.net/showthread.php?tid=2488> / <https://forums.ventoy.net/showthread.php?tid=2490>
+
+More info https://forums.ventoy.net/showthread.php?tid=2491
