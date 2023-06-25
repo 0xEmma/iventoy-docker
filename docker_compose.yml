@@ -6,5 +6,7 @@ services:
     privileged: true
     ports:
       - 26000:26000
+    env:
+      IVENTOY_API_ALL=1
     volumes:
       - /PATH/TO/ISOS:/iventoy/iso

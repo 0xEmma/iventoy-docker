@@ -12,6 +12,10 @@ name: Create and publish a Docker image
 on:
   push:
     branches: ['main']
+    paths:
+      - Iventoy-Releases/**
+      - start.sh
+      - Dockerfile
   release:
     types: [published]
 
