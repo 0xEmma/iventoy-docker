@@ -1,0 +1,9 @@
+services:
+  plex:
+    image: ghcr.io/0xemma/iventoy-docker:1.0.03
+    container_name: iventoy
+    environment:
+      - VERSION=docker
+    restart: always
+    volumes:
+      - /PATH/TO/ISOS:/iventoy/iso
