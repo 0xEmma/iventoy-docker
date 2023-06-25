@@ -4,5 +4,7 @@ services:
     container_name: iventoy
     restart: always
     privileged: true
+    ports:
+      - 26000:26000
     volumes:
       - /PATH/TO/ISOS:/iventoy/iso
